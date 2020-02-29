@@ -25,7 +25,6 @@ fn scprod(v1: &Point3d, v2: &Point3d) -> f64 {
     let ret: f64 = v1.x * v2.x + v1.y * v2.y + v1.z * v2.z;
     return ret;
 }
-
 //差（座標をベクトルにする）
 fn sub(p1: &Point3d, p2: &Point3d) -> Point3d {
     let x: f64 = p2.x - p1.x;
@@ -33,11 +32,12 @@ fn sub(p1: &Point3d, p2: &Point3d) -> Point3d {
     let z: f64 = p2.z - p1.z;
     return Point3d { x: x, y: y, z: z };
 }
+
+//文字列から文字数分取り出す
 fn kiridashi(text: String, start: usize, end: usize) -> String {
     let begin = text.char_indices().nth(start).unwrap().0;
     let end = text.char_indices().nth(end).unwrap().0;
     let ret = &text[begin..end];
-
     return ret.trim().to_owned();
 }
 
@@ -52,7 +52,6 @@ fn connect_info(path: String) -> Vec<String> {
 
     //開いファイルを使ってBufReaderで読み出す
     let reader = BufReader::new(f);
-    let mut l = 0; //ベクターの位置変数
     let mut list: Vec<String> = Vec::new();
 
     //一行ずつ取り出しながらベクターに格納していく
@@ -93,7 +92,7 @@ fn main() {
     ret.insert("4C1".to_string(), 0);
     for p in fs::read_dir(target).unwrap() {
         let path = p.unwrap().path().display().to_string();
-        let mut data = String::new();
+        //   let mut data = String::new();
         let mut map: HashMap<String, String> = HashMap::new();
 
         let file = File::open(path).expect("cannot open file");
@@ -116,10 +115,11 @@ fn main() {
             }
         }
 
-        let mut a1: Vec<&str> = Vec::new();
-        let mut a2: Vec<&str> = Vec::new();
-        let mut a3: Vec<&str> = Vec::new();
-        let mut items: Vec<&str> = Vec::new();
+        let mut a1: Vec<&str>;
+        let mut a2: Vec<&str>;
+        let mut a3: Vec<&str>;
+        let mut items: Vec<&str>;
+
         for str1 in c_list.iter() {
             items = str1.split_whitespace().collect();
             let t = items[1];
