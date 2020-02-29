@@ -32,7 +32,6 @@ fn sub(p1: &Point3d, p2: &Point3d) -> Point3d {
     let z: f64 = p2.z - p1.z;
     return Point3d { x: x, y: y, z: z };
 }
-
 //文字列から文字数分取り出す
 fn kiridashi(text: String, start: usize, end: usize) -> String {
     let begin = text.char_indices().nth(start).unwrap().0;
