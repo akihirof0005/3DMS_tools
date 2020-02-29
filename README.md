@@ -1,7 +1,9 @@
 # which_ring
- * Install rust  
+[Install Rust](https://www.rust-lang.org/tools/install)   
 ```bash
 cd ~/which_ring  
 cargo build --release  
 ./target/release/which_ring  
 ```
+
+
