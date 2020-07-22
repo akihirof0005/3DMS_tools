@@ -1,0 +1,45 @@
+HEADERCARBOHYDRATE
+COMPNDUNNAMED
+AUTHORCREATED BY SWEET-II ON WWW.GLYCOSCIENCES.DE
+HETATM    1  C   UNL     1       1.788   0.532  -0.576  1.00  0.00           C  
+HETATM    2  C   UNL     1       1.056   0.377   0.742  1.00  0.00           C  
+HETATM    3  C   UNL     1      -0.228  -0.413   0.512  1.00  0.00           C  
+HETATM    4  C   UNL     1      -1.101   0.293  -0.540  1.00  0.00           C  
+HETATM    5  C   UNL     1      -0.235   0.499  -1.803  1.00  0.00           C  
+HETATM    6  O   UNL     1       1.920  -0.296   1.670  1.00  0.00           O  
+HETATM    7  O   UNL     1       0.970   1.204  -1.518  1.00  0.00           O  
+HETATM    8  H   UNL     1       1.390  -0.567   2.583  1.00  0.00           H  
+HETATM    9  O   UNL     1       3.001   1.260  -0.434  1.00  0.00           O  
+HETATM   10  O   UNL     1       0.064  -1.710   0.007  1.00  0.00           O  
+HETATM   11  O   UNL     1      -2.262  -0.469  -0.846  1.00  0.00           O  
+HETATM   12  H   UNL     1       2.784   2.256  -0.048  1.00  0.00           H  
+HETATM   13  H   UNL     1      -0.866  -2.256  -0.151  1.00  0.00           H  
+HETATM   14  H   UNL     1      -3.001  -0.338  -0.055  1.00  0.00           H  
+HETATM   15  H   UNL     1      -0.827   1.134  -2.457  1.00  0.00           H  
+HETATM   16  H   UNL     1      -0.031  -0.386  -2.390  1.00  0.00           H  
+HETATM   17  H   UNL     1      -1.396   1.265  -0.146  1.00  0.00           H  
+HETATM   18  H   UNL     1      -0.770  -0.468   1.456  1.00  0.00           H  
+HETATM   19  H   UNL     1       2.047  -0.453  -0.966  1.00  0.00           H  
+HETATM   20  H   UNL     1       0.794   1.333   1.146  1.00  0.00           H  
+CONECT    1    2    7    9   19                                       
+CONECT    2    1    3    6   20                                       
+CONECT    3    2    4   10   18                                       
+CONECT    4    3    5   11   17                                       
+CONECT    5    4    7   15   16                                       
+CONECT    6    2    8                                                 
+CONECT    7    1    5                                                 
+CONECT    8    6                                                      
+CONECT    9    1   12                                                 
+CONECT   10    3   13                                                 
+CONECT   11    4   14                                                 
+CONECT   12    9                                                      
+CONECT   13   10                                                      
+CONECT   14   11                                                      
+CONECT   15    5                                                      
+CONECT   16    5                                                      
+CONECT   17    4                                                      
+CONECT   18    3                                                      
+CONECT   19    1                                                      
+CONECT   20    2                                                      
+MASTER        0    0    0    0    0    0    0    0   20    0   20    0
+END

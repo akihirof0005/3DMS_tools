@@ -1,0 +1,65 @@
+HEADERCARBOHYDRATE
+COMPNDUNNAMED
+AUTHORCREATED BY SWEET-II ON WWW.GLYCOSCIENCES.DE
+HETATM    1  C   UNL     1       1.033  -0.888   0.196  1.00  0.00           C  
+HETATM    2  C   UNL     1       0.391  -0.678   1.563  1.00  0.00           C  
+HETATM    3  C   UNL     1      -1.116  -0.871   1.522  1.00  0.00           C  
+HETATM    4  C   UNL     1      -1.724  -0.053   0.406  1.00  0.00           C  
+HETATM    5  C   UNL     1      -1.019  -0.370  -0.913  1.00  0.00           C  
+HETATM    6  C   UNL     1      -1.525   0.407  -2.109  1.00  0.00           C  
+HETATM    7  O   UNL     1       2.349  -0.464   0.266  1.00  0.00           O  
+HETATM    8  O   UNL     1       0.371  -0.043  -0.754  1.00  0.00           O  
+HETATM    9  O   UNL     1      -1.394   1.808  -1.924  1.00  0.00           O  
+HETATM   10  H   UNL     1       2.842  -1.145  -0.427  1.00  0.00           H  
+HETATM   11  H   UNL     1      -0.878   2.529  -2.557  1.00  0.00           H  
+HETATM   12  O   UNL     1      -1.328  -2.255   1.271  1.00  0.00           O  
+HETATM   13  O   UNL     1      -1.573   1.305   0.802  1.00  0.00           O  
+HETATM   14  H   UNL     1      -2.398  -2.455   1.218  1.00  0.00           H  
+HETATM   15  H   UNL     1      -2.088   1.467   1.749  1.00  0.00           H  
+HETATM   16  H   UNL     1      -1.158  -1.389  -1.149  1.00  0.00           H  
+HETATM   17  H   UNL     1      -1.357   0.282  -3.085  1.00  0.00           H  
+HETATM   18  H   UNL     1      -2.546   0.197  -2.240  1.00  0.00           H  
+HETATM   19  H   UNL     1       0.959  -1.939  -0.083  1.00  0.00           H  
+HETATM   20  H   UNL     1       0.618   0.342   1.875  1.00  0.00           H  
+HETATM   21  H   UNL     1      -1.558  -0.576   2.473  1.00  0.00           H  
+HETATM   22  H   UNL     1      -2.780  -0.269   0.241  1.00  0.00           H  
+HETATM   23  N   UNL     1       0.978  -1.614   2.494  1.00  0.00           N  
+HETATM   24  C   UNL     1       1.025  -1.313   3.831  1.00  0.00           C  
+HETATM   25  C   UNL     1       1.676  -2.386   4.684  1.00  0.00           C  
+HETATM   26  O   UNL     1       0.597  -0.284   4.317  1.00  0.00           O  
+HETATM   27  H   UNL     1       1.362  -2.507   2.154  1.00  0.00           H  
+HETATM   28  H   UNL     1       1.678  -2.093   5.758  1.00  0.00           H  
+HETATM   29  H   UNL     1       2.732  -2.543   4.366  1.00  0.00           H  
+HETATM   30  H   UNL     1       1.120  -3.347   4.588  1.00  0.00           H  
+CONECT    1    2    7    8   19                                       
+CONECT    2    1    3   20   23                                       
+CONECT    3    2    4   12   21                                       
+CONECT    4    3    5   13   22                                       
+CONECT    5    4    6    8   16                                       
+CONECT    6    5    9   17   18                                       
+CONECT    7    1   10                                                 
+CONECT    8    1    5                                                 
+CONECT    9    6   11                                                 
+CONECT   10    7                                                      
+CONECT   11    9                                                      
+CONECT   12    3   14                                                 
+CONECT   13    4   15                                                 
+CONECT   14   12                                                      
+CONECT   15   13                                                      
+CONECT   16    5                                                      
+CONECT   17    6                                                      
+CONECT   18    6                                                      
+CONECT   19    1                                                      
+CONECT   20    2                                                      
+CONECT   21    3                                                      
+CONECT   22    4                                                      
+CONECT   23    2   24   27                                            
+CONECT   24   23   25   26                                            
+CONECT   25   24   28   29   30                                       
+CONECT   26   24                                                      
+CONECT   27   23                                                      
+CONECT   28   25                                                      
+CONECT   29   25                                                      
+CONECT   30   25                                                      
+MASTER        0    0    0    0    0    0    0    0   30    0   30    0
+END

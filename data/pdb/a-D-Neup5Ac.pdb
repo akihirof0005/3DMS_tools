@@ -1,0 +1,85 @@
+HEADERCARBOHYDRATE
+COMPNDUNNAMED
+AUTHORCREATED BY SWEET-II ON WWW.GLYCOSCIENCES.DE
+HETATM    1  C   UNL     1      -0.937  -0.321   0.174  1.00  0.00           C  
+HETATM    2  C   UNL     1      -0.195  -1.379   1.066  1.00  0.00           C  
+HETATM    3  C   UNL     1      -0.885  -1.713   2.418  1.00  0.00           C  
+HETATM    4  C   UNL     1      -2.106  -2.641   2.230  1.00  0.00           C  
+HETATM    5  C   UNL     1      -1.731  -3.909   1.432  1.00  0.00           C  
+HETATM    6  C   UNL     1      -1.032  -3.538   0.091  1.00  0.00           C  
+HETATM    7  C   UNL     1      -0.498  -4.766  -0.690  1.00  0.00           C  
+HETATM    8  C   UNL     1      -0.027  -4.424  -2.125  1.00  0.00           C  
+HETATM    9  C   UNL     1       0.480  -5.639  -2.913  1.00  0.00           C  
+HETATM   10  O   UNL     1       0.090  -2.625   0.360  1.00  0.00           O  
+HETATM   11  O   UNL     1      -1.975   0.264   0.485  1.00  0.00           O  
+HETATM   12  O   UNL     1      -0.304  -0.104  -1.016  1.00  0.00           O  
+HETATM   13  O   UNL     1       1.093  -0.885   1.390  1.00  0.00           O  
+HETATM   14  O   UNL     1      -2.594  -3.017   3.510  1.00  0.00           O  
+HETATM   15  O   UNL     1       0.594  -5.318   0.043  1.00  0.00           O  
+HETATM   16  O   UNL     1      -1.106  -3.892  -2.878  1.00  0.00           O  
+HETATM   17  O   UNL     1       0.827  -5.249  -4.242  1.00  0.00           O  
+HETATM   18  H   UNL     1       1.646  -1.268   0.704  1.00  0.00           H  
+HETATM   19  H   UNL     1      -1.779  -3.023  -0.547  1.00  0.00           H  
+HETATM   20  H   UNL     1      -0.153  -2.217   3.078  1.00  0.00           H  
+HETATM   21  H   UNL     1      -1.168  -0.783   2.944  1.00  0.00           H  
+HETATM   22  H   UNL     1      -2.902  -2.091   1.684  1.00  0.00           H  
+HETATM   23  H   UNL     1       1.041  -4.548   0.408  1.00  0.00           H  
+HETATM   24  H   UNL     1      -0.851  -4.072  -3.789  1.00  0.00           H  
+HETATM   25  H   UNL     1      -2.645  -2.205   4.022  1.00  0.00           H  
+HETATM   26  H   UNL     1       1.255  -6.006  -4.656  1.00  0.00           H  
+HETATM   27  H   UNL     1      -0.294  -6.432  -2.937  1.00  0.00           H  
+HETATM   28  H   UNL     1       1.358  -6.081  -2.402  1.00  0.00           H  
+HETATM   29  H   UNL     1       0.782  -3.668  -2.073  1.00  0.00           H  
+HETATM   30  H   UNL     1      -1.306  -5.521  -0.761  1.00  0.00           H  
+HETATM   31  H   UNL     1      -0.827   0.527  -1.512  1.00  0.00           H  
+HETATM   32  H   UNL     1      -1.039  -4.524   2.040  1.00  0.00           H  
+HETATM   33  N   UNL     1      -2.945  -4.655   1.193  1.00  0.00           N  
+HETATM   34  C   UNL     1      -3.313  -5.659   2.050  1.00  0.00           C  
+HETATM   35  C   UNL     1      -4.605  -6.357   1.668  1.00  0.00           C  
+HETATM   36  O   UNL     1      -2.678  -5.987   3.034  1.00  0.00           O  
+HETATM   37  H   UNL     1      -3.535  -4.432   0.378  1.00  0.00           H  
+HETATM   38  H   UNL     1      -4.859  -7.154   2.403  1.00  0.00           H  
+HETATM   39  H   UNL     1      -4.505  -6.831   0.665  1.00  0.00           H  
+HETATM   40  H   UNL     1      -5.447  -5.628   1.645  1.00  0.00           H  
+CONECT    1   11   12    2                                            
+CONECT    2    1    3   10   13                                       
+CONECT    3    2    4   20   21                                       
+CONECT    4    3    5   14   22                                       
+CONECT    5    4    6   32   33                                       
+CONECT    6    5    7   10   19                                       
+CONECT    7    6    8   15   30                                       
+CONECT    8    7    9   16   29                                       
+CONECT    9    8   17   27   28                                       
+CONECT   10    2    6                                                 
+CONECT   11    1                                                      
+CONECT   12    1   31                                                 
+CONECT   13    2   18                                                 
+CONECT   14    4   25                                                 
+CONECT   15    7   23                                                 
+CONECT   16    8   24                                                 
+CONECT   17    9   26                                                 
+CONECT   18   13                                                      
+CONECT   19    6                                                      
+CONECT   20    3                                                      
+CONECT   21    3                                                      
+CONECT   22    4                                                      
+CONECT   23   15                                                      
+CONECT   24   16                                                      
+CONECT   25   14                                                      
+CONECT   26   17                                                      
+CONECT   27    9                                                      
+CONECT   28    9                                                      
+CONECT   29    8                                                      
+CONECT   30    7                                                      
+CONECT   31   12                                                      
+CONECT   32    5                                                      
+CONECT   33    5   34   37                                            
+CONECT   34   33   35   36                                            
+CONECT   35   34   38   39   40                                       
+CONECT   36   34                                                      
+CONECT   37   33                                                      
+CONECT   38   35                                                      
+CONECT   39   35                                                      
+CONECT   40   35                                                      
+MASTER        0    0    0    0    0    0    0    0   40    0   40    0
+END
